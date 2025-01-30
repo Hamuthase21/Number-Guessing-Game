@@ -1,0 +1,78 @@
+/* Body - Add background image */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center; /* Ensures text is centered */
+    background-image: url('"C:\Users\Hamuthase\Downloads\guessnumber.webp"'); /* Replace with your image path or URL */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Game container */
+.game-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h1 {
+    font-size: 40px; /* Bigger font for the title */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px; /* Bigger font for description */
+}
+
+input {
+    padding: 12px;
+    margin: 15px 0;
+    width: 60%;
+    font-size: 18px; /* Larger font for input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-size: 18px; /* Larger font for buttons */
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    font-size: 24px; /* Larger font for feedback */
+    font-weight: bold;
+    color: #ff6347;
+}
+
+#attempts {
+    font-size: 20px;
+    color: #555;
+}
+
+#restartButton {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #008CBA;
+}
+
+#restartButton:hover {
+    background-color: #007bb5;
+}
